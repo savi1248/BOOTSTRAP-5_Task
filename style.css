@@ -65,6 +65,21 @@
 .border-bottom {
     background-color:white;
 }
+.row{
+    padding: 0px;
+    margin:0px;
+
+}
+@media(max-width:576px)
+{
+    .row{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 
 
 
